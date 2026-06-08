@@ -41,7 +41,7 @@ python data/generate_transactions.py
 uvicorn src.api.main:app --reload & start http://localhost:8000/app
 ```
 
-## How data is acquired (PM-level answer)
+## How data is acquired
 
 | Method | Description | Status |
 |--------|-------------|--------|
