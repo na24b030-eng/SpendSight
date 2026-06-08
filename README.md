@@ -47,7 +47,6 @@ uvicorn src.api.main:app --reload & start http://localhost:8000/app
 |--------|-------------|--------|
 | CSV upload | User downloads from Paytm/BHIM, uploads here | ✅ v1 (this build) |
 | RBI Account Aggregator | One-tap consent via Setu/Finvu AA API | 🔜 v2 production |
-| SMS parsing | Parse bank SMSes on-device (Android) | 🔜 v2 alternative |
 
 ## CSV format supported
 
